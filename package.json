@@ -1,0 +1,19 @@
+{
+  "name": "restfulapis",
+  "version": "1.0.0",
+  "description": "Examples in using restful apis",
+  "main": "index.js",
+  "scripts": {
+    "hello": "echo 'Hello'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "REST",
+    "Examples"
+  ],
+  "author": "Caphyon",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1"
+  }
+}
