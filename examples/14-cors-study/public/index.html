@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <img src='http://localhost:3000/api' alt='image should work without cors, check network to confirm it does (200/OK)'/>
+  <script>
+    // even though images are GET requests they are not affected by CORS
+    //AJAX requests are
+    fetch('http://localhost:3000/api');
+
+    fetch('http://localhost:3000/api', {
+      method: 'POST'
+    });
+  </script>
+</body>
+</html>
