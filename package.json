@@ -4,6 +4,7 @@
   "description": "Examples in using restful apis",
   "main": "index.js",
   "scripts": {
+    "siege": "autocannon --conections 10 --duration 10 http://localhost:4002/hello",
     "hello": "echo 'Hello'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +15,7 @@
   "author": "Caphyon",
   "license": "MIT",
   "dependencies": {
+    "@tensorflow/tfjs": "2.0.1",
     "body-parser": "1.19.0",
     "compression": "1.7.4",
     "cors": "2.8.5",
@@ -24,5 +26,9 @@
     "mongoose": "5.9.20",
     "morgan": "1.10.0",
     "node-fetch": "2.6.0"
+  },
+  "devDependencies": {
+    "autocannon": "5.0.1",
+    "siege": "0.2.0"
   }
 }

@@ -14,13 +14,6 @@ app.use('/api/v1/authors', (req, res) => {
   res.json(authors);
 });
 
-app.use('*', (req, res) => {
-  res.sendStatus(404);
-});
-
-const error = require('./middlewares/error');
-app.use(error);
-
 const port = 4001;
 app.listen(4001, (err, done) => {
   if (err) console.error(err);
