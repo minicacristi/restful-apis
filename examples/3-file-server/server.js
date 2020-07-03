@@ -11,10 +11,6 @@ app.use(express.static(path.join(__dirname, '../../node_modules'), {
   maxAge: 24 * 60 * 60 * 1000
 }));
 
-app.use(express.static(path.join(__dirname, '../../node_modules'), {
-  maxAge: 24 * 60 * 60 * 1000
-}));
-
 const port = 3010;
 app.listen(port, () => {
   console.log(`listening on port ${port}`);
