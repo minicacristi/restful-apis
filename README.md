@@ -26,6 +26,6 @@ Their name and a link will be placed on the podium in the chronological order th
 5. Host the API's on Heroku with MongoLab
 
 # 🏆 Podium
-🥇[Alexandru Adrian Curca](https://github.com/AlexandruAdrian/Open4Tech-RestfulAPIs)
-🥈[Geica Robert](https://github.com/robertgeica/open4tech-2020)
+🥇[Alexandru Adrian Curca](https://github.com/AlexandruAdrian/Open4Tech-RestfulAPIs) \
+🥈[Geica Robert](https://github.com/robertgeica/open4tech-2020) \
 🥉
