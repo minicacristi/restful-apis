@@ -15,8 +15,7 @@ The tools we are using throughout this course are:
 # 💻 Homework
 
 Exercise your skills with these tasks. 
-The people that finish the homework will receive an award. 
-There are 7 awards(1 gold, 2 silver, 4 bronze) and 10 mentions. 
+The people that finish the homework will receive an award.
 Their name and a link will be placed on the podium in the chronological order they sent the public repository with the solutions. 
 
 1. Create a RESTful API for questions and answers, save them to a file
