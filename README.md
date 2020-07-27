@@ -27,4 +27,4 @@ Their name and a link will be placed on the podium in the chronological order th
 # 🏆 Podium
 🥇 [Curca Alexandru Adrian](https://github.com/AlexandruAdrian/Open4Tech-RestfulAPIs) \
 🥈 [Geica Robert](https://github.com/robertgeica/open4tech-2020) \
-🥉 [Theodor Stanica](https://github.com/TheoStanica/Open4Tech-RESTful-APIs) \
+🥉 [Theodor Stanica](https://github.com/TheoStanica/Open4Tech-RESTful-APIs)
